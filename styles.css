@@ -486,11 +486,7 @@ img {
   }
 }
 @media screen and (min-height: 721px) {
-  .home-container {
-    height: 640px;
-  }
   .himg {
-    width: 500px;
-    right: 24%;
+    width: 380px;
   }
 }
