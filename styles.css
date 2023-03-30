@@ -337,6 +337,7 @@ img {
 }
 .ssscroll{
   color: #fafaff;
+  font-size: 1.5rem;
 }
 .contact__container {
   row-gap: 2rem;
