@@ -102,6 +102,32 @@ img {
   align-items: center;
   font-size: 1.1rem;
 }
+@media screen and (max-width: 768px) {
+  .menu { 
+    position: fixed;
+    top: 3rem;
+    right: -100%;
+    width: 80%;
+    height: 340px;
+    padding: 2rem;
+    transition: .5s;
+    background-color: #fafaffbf;
+    backdrop-filter: blur(100rem);
+    border-radius: 2rem 0 2rem 2rem;
+  }
+  .title span{
+    font-size: 4.6rem;
+  }
+  .title h1{
+    font-size: 5rem;
+  }
+  .simg{
+    width: 0;
+  }
+  .aimg img{
+    width: 125px;
+  }
+}
 .item {
   margin-bottom: 2rem;
 }
@@ -376,32 +402,6 @@ img {
   color: #74aedb;
 }
 /* RESPONTODDD*/
-@media screen and (max-width: 768px) {
-  .menu { 
-    position: fixed;
-    top: 3rem;
-    right: -100%;
-    width: 80%;
-    height: 340px;
-    padding: 2rem;
-    transition: .5s;
-    background-color: #fafaffbf;
-    backdrop-filter: blur(100rem);
-    border-radius: 2rem 0 2rem 2rem;
-  }
-  .title span{
-    font-size: 4.6rem;
-  }
-  .title h1{
-    font-size: 5rem;
-  }
-  .simg{
-    width: 0;
-  }
-  .aimg img{
-    width: 125px;
-  }
-}
 @media screen and (max-width: 320px) {
   .himg {
     width: 230px;
